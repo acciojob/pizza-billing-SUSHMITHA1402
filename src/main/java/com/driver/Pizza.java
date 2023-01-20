@@ -36,12 +36,15 @@ public class Pizza {
     public void addExtraToppings(){
         // your code goes here
         countTop++;
-        if(isVeg){
-            price+=70;
+        if(countTop==1){
+            if(isVeg){
+                price+=70;
+            }
+            else{
+                price+=120;
+            }
         }
-        else{
-            price+=120;
-        }
+
     }
 
     public void addTakeaway(){
