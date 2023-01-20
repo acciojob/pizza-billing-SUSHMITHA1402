@@ -42,7 +42,7 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        String out ="Base Price Of The Pizza:"+price+"\n";
+        String out ="Base Price Of The Pizza: "+price+"\n";
         if(countChee>0){
             out+="Extra Cheese Added: 80"+"\n";
             price+=80;
@@ -61,7 +61,7 @@ public class Pizza {
             out+="Paperbag Added: 20"+"\n";
             price+=20;
         }
-        bill = out+"Total Price:"+price+"\n";
+        bill = out+"Total Price: "+price+"\n";
         return this.bill;
     }
 }
